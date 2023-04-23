@@ -1,0 +1,13 @@
+const host ='https://wechatservers.onrender.com';
+export const registerRoute = `${host}/api/register`;
+export const loginRoute = `${host}/api/login`;
+export const forgetRoute = `${host}/api/forget`;
+export const setAvatar = `${host}/api/setavatar`;
+export const getUSer = `${host}/api/getUser`;
+export const searchUser = `${host}/api/searchUser`;
+export const Addconversation = `${host}/api/conversation`;
+export const Conversationget = `${host}/api/conversationget`;
+export const Conversationdelete = `${host}/api/conversationdelete`;
+export const Messageadd = `${host}/api/messageadd`;
+export const Messageget = `${host}/api/messageget`;
+export const profileUpdate = `${host}/api/profileUpdate`;
